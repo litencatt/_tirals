@@ -1,0 +1,19 @@
+{
+  "name": "vue_webpack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "start": "webpack-dev-server"
+  },
+  "devDependencies": {
+    "vue-loader": "^11.3.4",
+    "webpack": "^2.3.2",
+    "webpack-dev-server": "^2.4.2"
+  },
+  "dependencies": {
+    "vue": "^2.2.6"
+  }
+}
